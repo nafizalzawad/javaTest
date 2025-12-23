@@ -13,13 +13,3 @@ class Dog extends Animal {
         System.out.println("Barking loudly");
     }
 }
-
-public class part2Q4 {
-    public static void main(String[] args) {
-        Animal a = new Dog();
-Dog d = (Dog) a;
-d.bark();
-
-        // a.bark(); // Line X
-    }
-}
