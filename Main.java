@@ -12,6 +12,13 @@ Calculator calc = new Calculator();
         System.out.println("Subtraction: " + calc.subtract(10, 5));
         System.out.println("Multiplication: " + calc.multiply(10, 5));
         System.out.println("Division: " + calc.divide(10, 0));
+
+        //part 4-bank account
+         BankAccount account = new BankAccount("ACC12345");
+
+        account.deposit(5000);
+        account.withdraw(2000);
+        account.displayAccountInfo();
         
     }
 }
